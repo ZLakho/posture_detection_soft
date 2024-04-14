@@ -89,10 +89,10 @@ function draw(){
             line(skeleton[j][0].position.x, skeleton[j][0].position.y, skeleton[j][1].position.x, skeleton[j][1].position.y)
         }
 
-        // image(img_pic, singlePose.nose.x-45, singlePose.nose.y-70, 100, 100)
+        image(img_pic, singlePose.nose.x-45, singlePose.nose.y-70, 100, 100)
 
-        image(specs,singlePose.nose.x-35,singlePose.nose.y-50,80,80);
-        image(smoke,singlePose.nose.x-35,singlePose.nose.y+10,40,40);
+        // image(specs,singlePose.nose.x-35,singlePose.nose.y-50,80,80);
+        // image(smoke,singlePose.nose.x-35,singlePose.nose.y+10,40,40);
 
     }
 
